@@ -13,6 +13,6 @@ class Transfer
     self.amount > 0 && @sender.valid? && @reciever.valid?
   end
 
-  
+
 
 end
