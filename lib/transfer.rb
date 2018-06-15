@@ -18,7 +18,10 @@ class Transfer
       @sender.balance -= self.amount
       @reciever.balance += self.amount
       self.status = "complete"
+    else
+      bad_transfer
     end
+    
   end
 
 
